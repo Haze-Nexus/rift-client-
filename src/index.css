@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@theme {
+  /* Cores customizadas da RIFT */
+  --color-rift-purple: #9333ea;
+  --color-rift-pink: #db2777;
+  --color-rift-dark: #0d0d0f;
+  --color-rift-accent: #f472b6;
+}
+
+body {
+  background-color: var(--color-rift-dark);
+  color: white;
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+}
